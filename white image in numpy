@@ -1,9 +1,0 @@
-    # import   libraries  
-    import cv2  
-    import numpy as np    
-    # create an array using np. full   
-    # white color code is 255  
-    array_created = np.full((500, 500, 3),  
-                            255, dtype = np.uint8)    
-    # Display the image  
-    cv2.imshow("image", array_created)  

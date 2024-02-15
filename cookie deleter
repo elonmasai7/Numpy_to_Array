@@ -1,0 +1,8 @@
+    from selenium import webdriver  
+    import selenium  
+      
+    driver = webdriver.Chrome()  
+      
+    driver.get("https://www.jumia.com/")  
+      
+    driver.delete_all_cookies()  
